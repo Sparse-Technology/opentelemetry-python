@@ -49,3 +49,7 @@ known-third-party = [
   "opencensus",
 ]
 known-first-party = ["opentelemetry", "opentelemetry_example_app"]
+
+
+[tool.setuptools]
+py-modules = []
