@@ -9,6 +9,9 @@ include = [
     "opentelemetry-api/src",
     "opentelemetry-sdk/src",
     "opentelemetry-semantic-conventions/src",
+    "exporter/src",
+    "propagator/src",
+    "shim/src",
 ]
 
 [tool.ruff]
@@ -49,7 +52,3 @@ known-third-party = [
   "opencensus",
 ]
 known-first-party = ["opentelemetry", "opentelemetry_example_app"]
-
-
-[tool.setuptools]
-py-modules = []
