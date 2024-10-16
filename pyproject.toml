@@ -9,9 +9,20 @@ include = [
     "opentelemetry-api/src",
     "opentelemetry-sdk/src",
     "opentelemetry-semantic-conventions/src",
-    "exporter/src",
-    "propagator/src",
-    "shim/src",
+    "opentelemetry-python/exporter/opentelemetry-exporter-opencensus/src",
+    "opentelemetry-python/exporter/opentelemetry-exporter-otlp/src",
+    "opentelemetry-python/exporter/opentelemetry-exporter-otlp-proto-common/src",
+    "opentelemetry-python/exporter/opentelemetry-exporter-otlp-proto-grpc/src",
+    "opentelemetry-python/exporter/opentelemetry-exporter-otlp-proto-http/src",
+    "opentelemetry-python/exporter/opentelemetry-exporter-prometheus/src",
+    "opentelemetry-python/exporter/opentelemetry-exporter-zipkin/src",
+    "opentelemetry-python/exporter/opentelemetry-exporter-zipkin-json/src",
+    "opentelemetry-python/exporter/opentelemetry-exporter-zipkin-proto-http/src",
+    "opentelemetry-python/propagator/opentelemetry-propagator-b3/src",
+    "opentelemetry-python/propagator/opentelemetry-propagator-jaeger/src",
+    "opentelemetry-python/shim/opentelemetry-opencensus-shim/src",
+    "opentelemetry-python/shim/opentelemetry-opentracing-shim/src",
+
 ]
 
 [tool.ruff]
